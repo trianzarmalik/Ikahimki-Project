@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/berita_baru"
+            android:icon="@drawable/ic_play"
+            android:title="Berita Baru" />
+        <item
+            android:id="@+id/galeri_foto"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Galeri Foto" />
+        <item
+            android:id="@+id/unggah_file"
+            android:icon="@drawable/ic_folder"
+            android:title="Unggah Berkas" />
+    </group>
+
+    <item android:title="Hubungi Kami">
+        <menu>
+            <item
+                android:id="@+id/bagikan"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Bagikan" />
+            <item
+                android:id="@+id/kirim_inkuiri"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Kirim Inkuiri" />
+        </menu>
+    </item>
+
+</menu>

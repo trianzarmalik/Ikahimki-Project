@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ikahimki.ikahimki.MedSos"
+    android:background="#41C9FA">
+    <ImageButton
+        android:contentDescription="@string/buttonweb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonweb1"
+        android:src="@drawable/webiconxhdpi"
+        android:onClick="SitusBtn"
+        android:background="#0000"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/buttonline1"
+        android:layout_alignStart="@+id/buttonline1"
+        android:layout_marginTop="11dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/situs"
+        android:layout_marginBottom="70dp"
+        android:layout_alignBottom="@+id/buttonweb1"
+        android:layout_toLeftOf="@+id/buttonweb1"
+        android:layout_toStartOf="@+id/buttonweb1"
+        android:textColor="#EC268F"
+        android:textSize="20sp"
+        android:id="@+id/situstxt" />
+    <ImageButton
+        android:contentDescription="@string/buttonline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonline1"
+        android:src="@drawable/lineiconxhdpi"
+        android:onClick="LineBtn"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="#0000" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/line"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/buttonline1"
+        android:layout_toEndOf="@+id/buttonline1"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:textColor="#EC268F"
+        android:textSize="20sp"
+        android:id="@+id/linetxt"/>
+    <ImageButton
+        android:contentDescription="@string/buttonig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonig1"
+        android:src="@drawable/igiconxhdpi"
+        android:onClick="IgBtn"
+        android:background="#0000"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/buttonline1"
+        android:layout_alignStart="@+id/buttonline1"
+        android:layout_marginBottom="10dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ig"
+        android:id="@+id/instagtxt"
+        android:textColor="#EC268F"
+        android:textSize="20sp"
+        android:layout_marginTop="57dp"
+        android:layout_alignTop="@+id/buttonig1"
+        android:layout_toLeftOf="@+id/buttonig1"
+        android:layout_toStartOf="@+id/buttonig1" />
+</RelativeLayout>

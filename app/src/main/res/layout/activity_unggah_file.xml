@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ikahimki.ikahimki.UnggahFile">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_admin"
+        android:onClick="LoginAdm"
+        android:src="@drawable/login"
+        android:background="#0000"
+        android:layout_marginTop="48dp"
+        android:layout_below="@+id/tampilkan_pass"
+        android:layout_centerHorizontal="true" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/username"
+        android:layout_marginTop="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView2" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/password"
+        android:layout_marginTop="38dp"
+        android:id="@+id/imageView3"
+        android:layout_below="@+id/username"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2" />
+    <EditText
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignLeft="@+id/username"
+        android:layout_alignStart="@+id/username" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tampilkan_pass"
+        android:text="Tampilkan Kata Sandi"
+        android:layout_below="@+id/password"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

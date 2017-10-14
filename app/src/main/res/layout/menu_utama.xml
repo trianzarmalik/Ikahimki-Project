@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:contentDescription="@string/profil"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/profilbtn"
+        android:onClick="Sejbtn"
+        android:src="@drawable/sejarahicon144"
+        android:layout_marginRight="14dp"
+        android:layout_marginEnd="14dp"
+        android:background="#0000"
+        android:layout_marginTop="64dp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/wilbtn"
+        android:layout_toStartOf="@+id/wilbtn" />
+    <ImageButton
+        android:contentDescription="@string/adart"
+        android:id="@+id/adartbtn"
+        android:onClick="AdartBtn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/adarticon144"
+        android:background="#0000"
+        android:layout_alignTop="@+id/profilbtn"
+        android:layout_toRightOf="@+id/profilbtn"
+        android:layout_toEndOf="@+id/profilbtn" />
+    <ImageButton
+        android:contentDescription="@string/vismis"
+        android:id="@+id/vismisbtn"
+        android:onClick="VisMisBtn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/vismisicon144"
+        android:background="#0000"
+        android:layout_alignTop="@+id/adartbtn"
+        android:layout_toRightOf="@+id/eventika"
+        android:layout_toEndOf="@+id/eventika" />
+    <ImageButton
+        android:contentDescription="@string/lembaga"
+        android:id="@+id/lembtn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/lembagaicon144"
+        android:onClick="LemBtn"
+        android:background="#0000"
+        android:layout_alignTop="@+id/wilbtn"
+        android:layout_alignLeft="@+id/profilbtn"
+        android:layout_alignStart="@+id/profilbtn" />
+    <ImageButton
+        android:contentDescription="@string/wilayah"
+        android:id="@+id/wilbtn"
+        android:onClick="WilBtn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/wilicon144"
+        android:background="#0000"
+        android:layout_below="@+id/adartbtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp" />
+    <ImageButton
+        android:contentDescription="@string/medsos"
+        android:id="@+id/medsosbtn"
+        android:onClick="MedBtn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/medsosicon144"
+        android:background="#0000"
+        android:layout_alignTop="@+id/wilbtn"
+        android:layout_alignLeft="@+id/vismisbtn"
+        android:layout_alignStart="@+id/vismisbtn" />
+    <ImageButton
+        android:contentDescription="@string/eventika"
+        android:id="@+id/eventika"
+        android:src="@drawable/eventikaicon144"
+        android:onClick="EventIka"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="#0000"
+        android:layout_below="@+id/medsosbtn"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:contentDescription="@string/version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vertxt"
+        android:text="@string/ver"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="13dp"/>
+</RelativeLayout>

@@ -1,0 +1,183 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ikahimki.ikahimki.Fragment3">
+        <ImageButton
+            android:contentDescription="@string/proinfo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/infokombtn"
+            android:onClick="InfokomBtn"
+            android:src="@drawable/infokomproicon"
+            android:background="#0000"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/propsdmbtn"
+            android:layout_toStartOf="@+id/propsdmbtn" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Infokom"
+            android:id="@+id/infokomtxt"
+            android:layout_below="@+id/infokombtn"
+            android:layout_alignLeft="@+id/infokombtn"
+            android:layout_alignStart="@+id/infokombtn"
+            android:layout_marginLeft="24dp"
+            android:layout_marginStart="24dp" />
+        <ImageButton
+            android:contentDescription="@string/prohumas"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/prohumasbtn"
+            android:onClick="HumasBtn"
+            android:background="#0000"
+            android:src="@drawable/iconproker2"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/prowirusbtn"
+            android:layout_alignStart="@+id/prowirusbtn" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Humas"
+            android:id="@+id/humastxt"
+            android:layout_marginLeft="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_below="@+id/prohumasbtn"
+            android:layout_alignLeft="@+id/prowirusbtn"
+            android:layout_alignStart="@+id/prowirusbtn" />
+        <ImageButton
+            android:contentDescription="@string/prolitbang"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/prolitbangbtn"
+            android:onClick="LitbangBtn"
+            android:background="#0000"
+            android:src="@drawable/litbangproicon"
+            android:layout_below="@+id/infokomtxt"
+            android:layout_toLeftOf="@+id/propsdmbtn"
+            android:layout_toStartOf="@+id/propsdmbtn" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LitBang"
+            android:id="@+id/litbangtxt"
+            android:layout_below="@+id/prolitbangbtn"
+            android:layout_alignRight="@+id/prokimlingbtn"
+            android:layout_alignEnd="@+id/prokimlingbtn" />
+        <ImageButton
+            android:contentDescription="@string/prowirus"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/prowirusbtn"
+            android:src="@drawable/wirusproicon"
+            android:onClick="WirusBtn"
+            android:background="#0000"
+            android:layout_below="@+id/humastxt"
+            android:layout_toRightOf="@+id/propsdmbtn"
+            android:layout_toEndOf="@+id/propsdmbtn" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wirus"
+            android:id="@+id/wirustxt"
+            android:layout_below="@+id/prowirusbtn"
+            android:layout_alignRight="@+id/humastxt"
+            android:layout_alignEnd="@+id/humastxt" />
+        <ImageButton
+            android:contentDescription="@string/prowirus"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/prokimlingbtn"
+            android:src="@drawable/kimlingproicon"
+            android:onClick="KimlingBtn"
+            android:background="#0000"
+            android:layout_alignTop="@+id/propsdmbtn"
+            android:layout_alignRight="@+id/infokomtxt"
+            android:layout_alignEnd="@+id/infokomtxt" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ristek-PI"
+            android:id="@+id/ristektxt"
+            android:layout_below="@+id/proristekbtn"
+            android:layout_alignRight="@+id/prososmabtn"
+            android:layout_alignEnd="@+id/prososmabtn" />
+        <ImageButton
+            android:contentDescription="@string/prowirus"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/propsdmbtn"
+            android:src="@drawable/psdmproicon"
+            android:onClick="PsdmBtn"
+            android:background="#0000"
+            android:layout_above="@+id/proenergibtn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PSDM"
+            android:id="@+id/psdmtxt"
+            android:layout_below="@+id/proristekbtn"
+            android:layout_centerHorizontal="true" />
+        <ImageButton
+            android:contentDescription="@string/prowirus"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/proristekbtn"
+            android:src="@drawable/ristekproicon"
+            android:onClick="RistekBtn"
+            android:background="#0000"
+            android:layout_alignTop="@+id/propsdmbtn"
+            android:layout_alignLeft="@+id/humastxt"
+            android:layout_alignStart="@+id/humastxt" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kimling"
+            android:id="@+id/kimlingtxt"
+            android:layout_above="@+id/proenergibtn"
+            android:layout_alignLeft="@+id/proenergibtn"
+            android:layout_alignStart="@+id/proenergibtn"
+            android:layout_marginLeft="11dp"
+            android:layout_marginStart="11dp" />
+        <ImageButton
+            android:contentDescription="@string/prowirus"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/proenergibtn"
+            android:src="@drawable/energiproicon"
+            android:onClick="EnergiBtn"
+            android:background="#0000"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/propsdmbtn"
+            android:layout_toStartOf="@+id/propsdmbtn"
+            android:layout_marginBottom="26dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Energi"
+            android:id="@+id/energitxt"
+            android:layout_below="@+id/prososmabtn"
+            android:layout_alignRight="@+id/prokimlingbtn"
+            android:layout_alignEnd="@+id/prokimlingbtn" />
+        <ImageButton
+            android:contentDescription="@string/prowirus"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/prososmabtn"
+            android:src="@drawable/sosmaproicon"
+            android:onClick="EnergiBtn"
+            android:background="#0000"
+            android:layout_alignTop="@+id/proenergibtn"
+            android:layout_alignLeft="@+id/prowirusbtn"
+            android:layout_alignStart="@+id/prowirusbtn" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sosmapro"
+            android:id="@+id/sosmatxt"
+            android:layout_below="@+id/prososmabtn"
+            android:layout_alignLeft="@+id/proristekbtn"
+            android:layout_alignStart="@+id/proristekbtn" />
+</RelativeLayout>

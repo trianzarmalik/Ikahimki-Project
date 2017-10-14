@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.ikahimki.ikahimki.Wilayah2">
+
+    <ImageButton
+    android:contentDescription="@string/kor1"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:id="@+id/korwil1"
+    android:src="@drawable/kor1"
+    android:onClick="kor1"
+    android:background="#0000"
+    android:layout_alignTop="@+id/korwil2"
+    android:layout_toLeftOf="@+id/korwil2"
+    android:layout_toStartOf="@+id/korwil2"
+    android:layout_marginRight="17dp"
+    android:layout_marginEnd="17dp" />
+
+    <ImageButton
+        android:contentDescription="@string/kor2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/korwil2"
+        android:src="@drawable/kor2"
+        android:onClick="kor2"
+        android:background="#0000"
+        android:layout_alignTop="@+id/korwil3"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+    android:contentDescription="@string/kor3"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:id="@+id/korwil3"
+    android:src="@drawable/kor3"
+    android:onClick="kor3"
+    android:background="#0000"
+        android:layout_marginTop="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="21dp"
+        android:layout_marginEnd="21dp" />
+    <ImageButton
+        android:contentDescription="@string/kor4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/korwil4"
+        android:src="@drawable/kor4"
+        android:onClick="kor4"
+        android:background="#0000"
+        android:layout_below="@+id/korwil1"
+        android:layout_alignLeft="@+id/korwil1"
+        android:layout_alignStart="@+id/korwil1"
+        android:layout_marginTop="83dp" />
+    <ImageButton
+        android:contentDescription="@string/kor5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/korwil5"
+        android:src="@drawable/kor5"
+        android:onClick="kor5"
+        android:background="#0000"
+        android:layout_alignTop="@+id/korwil4"
+        android:layout_toRightOf="@+id/korwil1"
+        android:layout_toEndOf="@+id/korwil1" />
+    <ImageButton
+        android:contentDescription="@string/kor6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/korwil6"
+        android:src="@drawable/kor6"
+        android:onClick="kor6"
+        android:background="#0000"
+        android:layout_alignTop="@+id/korwil5"
+        android:layout_alignLeft="@+id/korwil3"
+        android:layout_alignStart="@+id/korwil3" />
+</RelativeLayout>
